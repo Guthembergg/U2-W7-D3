@@ -1,0 +1,107 @@
+[
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  },
+  {
+    "name": "marco",
+    "surname": "sanchez",
+    "age": 21,
+    "year": 1,
+    "area": {
+      "region": "FVG",
+      "zpCode": 55555
+    },
+    "skills": [
+      { "name": "CSS", "rating": 6 },
+      { "name": "CSS", "rating": 8 }
+    ],
+    "graduate": false
+  }
+]
