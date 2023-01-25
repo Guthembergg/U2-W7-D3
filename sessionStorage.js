@@ -2,13 +2,14 @@
 // tutto il contenuto di sessionStorage viene svuotato ogni volta che si chiude il tab
 // o la finestra
 
-// sessionStorage.getItem('lastCounterValue') tornerà una stringa o null
+let minutes = 0;
+let seconds = 0; // sessionStorage.getItem('lastCounterValue') tornerà una stringa o null
 let counterValue = parseInt(sessionStorage.getItem("sessionTimer")) || 0;
 // devo controllare se esiste nello storage 'lastCounterValue', e se presente
 // il valore iniziale di counterValue deve essere preso da lì!
 const assignCounterToDOM = function () {
   // qua la definisco
-  paragraphReference.innerText = counterValue;
+  paragraphReference.innerText = `${minutes} : ${seconds}`;
 };
 
 const paragraphReference = document.getElementById("counter");
@@ -18,11 +19,16 @@ assignCounterToDOM(); // qua la eseguo, la prima volta
 
 const increaseCounter = function () {
   counterValue++;
+  seconds++;
   // counterValue++ // shorthand per fare la stessa cosa con meno caratteri
   //   counterValue += 1 // altra shorthand per fare di nuovo la stessa cosa
   console.log(counterValue);
   assignCounterToDOM(); // qua la eseguo
   sessionStorage.setItem("sessionTimer", counterValue);
+  if (seconds >= 60) {
+    minutes++;
+    seconds = 0;
+  }
 };
 
 const reset = function () {
