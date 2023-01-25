@@ -3,7 +3,7 @@
 // o la finestra
 
 // sessionStorage.getItem('lastCounterValue') tornerà una stringa o null
-let counterValue = parseInt(sessionStorage.getItem("lastCounterValue")) || 0;
+let counterValue = parseInt(sessionStorage.getItem("sessionTimer")) || 0;
 // devo controllare se esiste nello storage 'lastCounterValue', e se presente
 // il valore iniziale di counterValue deve essere preso da lì!
 const assignCounterToDOM = function () {
@@ -22,10 +22,11 @@ const increaseCounter = function () {
   //   counterValue += 1 // altra shorthand per fare di nuovo la stessa cosa
   console.log(counterValue);
   assignCounterToDOM(); // qua la eseguo
-  sessionStorage.setItem("lastCounterValue", counterValue);
+  sessionStorage.setItem("sessionTimer", counterValue);
 };
-setInterval(increaseCounter, 1000);
 
 const reset = function () {
   counterValue = -1;
 };
+
+setInterval(increaseCounter, 1000);
